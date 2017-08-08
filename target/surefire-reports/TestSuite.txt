@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 143.315 sec <<< FAILURE! - in TestSuite
+testHomePage(com.testRunner.VarifyHomePage)  Time elapsed: 0.034 sec  <<< FAILURE!
+java.lang.NullPointerException: null
+	at com.pages.HomePage.getApplicationTitle(HomePage.java:37)
+	at com.testRunner.VarifyHomePage.testHomePage(VarifyHomePage.java:30)
+

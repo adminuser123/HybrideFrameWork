@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke Test]">
+  <test name="Validate Login">
+    <classes>
+      <class name="com.testRunner.VerifyLoginPage"/>
+      <class name="com.testRunner.VarifyHomePage"/>
+    </classes>
+  </test> <!-- Validate Login -->
+  <test name="Validate Login(failed)">
+    <classes>
+      <class name="com.testRunner.VerifyLoginPage">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="setUp"/>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.testRunner.VerifyLoginPage -->
+      <class name="com.testRunner.VarifyHomePage">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="testHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testRunner.VarifyHomePage -->
+    </classes>
+  </test> <!-- Validate Login(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

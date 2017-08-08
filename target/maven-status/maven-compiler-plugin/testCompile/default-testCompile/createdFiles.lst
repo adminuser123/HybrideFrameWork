@@ -1,0 +1,11 @@
+com\pages\HomePage.class
+com\dataProvider\ExcelDataProvider.class
+com\testRunner\VerifyLoginPage.class
+com\dataProvider\ConfigDataProvider.class
+com\testRunner\VerifyLoginPageWithReport.class
+com\testRunner\VerifyLoginPageWithReportAndScreenShort.class
+com\utilities\Helper.class
+com\factory\BrowserFactory.class
+com\factory\DataProviderFactory.class
+com\pages\LogInPage.class
+com\testRunner\VarifyHomePage.class

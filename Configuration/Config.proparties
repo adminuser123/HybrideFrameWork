@@ -1,0 +1,5 @@
+url= https://www.macys.com
+ChormePath = C:\\usr\\development\\req_sw\\chromediver.exe
+IEPath = C:\\usr\\development\\req_sw\\IEDriverServer.exe
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43375" started-at="2017-08-08T07:49:24Z" finished-at="2017-08-08T07:50:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43375" started-at="2017-08-08T07:49:24Z" finished-at="2017-08-08T07:50:07Z">
+      <class name="com.testRunner.VerifyLoginPageWithReportAndScreenShort">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.testRunner.VerifyLoginPageWithReportAndScreenShort@29ee9faa]" name="setUp" is-config="true" duration-ms="20895" started-at="2017-08-08T03:49:24Z" finished-at="2017-08-08T03:49:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.testRunner.VerifyLoginPageWithReportAndScreenShort@29ee9faa]" name="testLogin" duration-ms="20999" started-at="2017-08-08T03:49:45Z" finished-at="2017-08-08T03:50:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="aftermethod(org.testng.ITestResult)[pri:0, instance:com.testRunner.VerifyLoginPageWithReportAndScreenShort@29ee9faa]" name="aftermethod" is-config="true" duration-ms="1437" started-at="2017-08-08T03:50:06Z" finished-at="2017-08-08T03:50:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=VerifyLoginPageWithReportAndScreenShort.testLogin()[pri:0, instance:com.testRunner.VerifyLoginPageWithReportAndScreenShort@29ee9faa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- com.testRunner.VerifyLoginPageWithReportAndScreenShort -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

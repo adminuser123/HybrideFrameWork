@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [RegressionSuit]">
+  <test name="ReGressionTest">
+    <classes>
+      <class name="com.testRunner.VerifyLoginPage"/>
+      <class name="com.testRunner.VerifyLoginPageWithReport"/>
+      <class name="com.testRunner.VarifyHomePage"/>
+      <class name="com.testRunner.VerifyLoginPageWithReportAndScreenShort"/>
+    </classes>
+  </test> <!-- ReGressionTest -->
+  <test name="ReGressionTest(failed)">
+    <classes>
+      <class name="com.testRunner.VerifyLoginPageWithReportAndScreenShort">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testRunner.VerifyLoginPageWithReportAndScreenShort -->
+      <class name="com.testRunner.VarifyHomePage">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="testHomePage"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testRunner.VarifyHomePage -->
+      <class name="com.testRunner.VerifyLoginPage">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testRunner.VerifyLoginPage -->
+      <class name="com.testRunner.VerifyLoginPageWithReport">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.testRunner.VerifyLoginPageWithReport -->
+    </classes>
+  </test> <!-- ReGressionTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuit] -->
